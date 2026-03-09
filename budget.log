@@ -1,0 +1,5 @@
+experiment_count=1
+max_runtime_seconds=300
+estimated_api_cost_usd=0
+last_status=keep
+notes=Static repository experiment using schema-richness metric because no automated test harness is currently present.
