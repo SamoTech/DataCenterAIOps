@@ -1,3 +1,4 @@
+import { FeedbackForm } from "@/components/feedback-form";
 import { MetricCard } from "@/components/metric-card";
 import { SectionCard } from "@/components/section-card";
 import { incidents, services, telemetryOverview } from "@/lib/mock-data";
@@ -24,7 +25,7 @@ export default function HomePage() {
           <h1>Correlate logs, metrics, and traces into smart incidents.</h1>
           <p>
             A starter open-source AIOps dashboard for modern teams. Monitor service health,
-            reduce alert noise, and surface likely root causes in one place.
+            reduce alert noise, collect beta feedback, and surface likely root causes in one place.
           </p>
         </div>
         <div className="hero-panel">
@@ -58,6 +59,24 @@ export default function HomePage() {
           helper="Recovery time after triage"
         />
       </div>
+
+      <SectionCard title="Early access" subtitle="Let users try the concept, rate it, and request what should ship next">
+        <div className="early-access-grid">
+          <div className="early-access-copy">
+            <div className="beta-pill">Live demo</div>
+            <h3>Validate the product before full release.</h3>
+            <p>
+              Use this section to capture interest, collect quick product ratings, and learn which integrations matter most.
+            </p>
+            <ul className="check-list">
+              <li>Collect a simple 1-5 rating</li>
+              <li>Capture email and role for follow-up</li>
+              <li>Ask what feature should come next</li>
+            </ul>
+          </div>
+          <FeedbackForm />
+        </div>
+      </SectionCard>
 
       <div className="content-grid">
         <SectionCard title="Incident feed" subtitle="Correlated incidents with impact and root-cause hints">
@@ -134,7 +153,7 @@ export default function HomePage() {
           </div>
           <div>
             <h3>Extendable API</h3>
-            <p>Add OpenTelemetry, Slack, Telegram, auth, and storage without rewriting the core.</p>
+            <p>Add OpenTelemetry, Slack, Telegram, auth, feedback storage, and persistence without rewriting the core.</p>
           </div>
         </div>
       </SectionCard>
