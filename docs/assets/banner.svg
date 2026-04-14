@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg-dc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080c14;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f1929;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg-dc)" rx="12"/>
+  <pattern id="grid-dc" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0 L0 0 0 40" fill="none" stroke="#1e3a5f" stroke-width="0.5"/>
+  </pattern>
+  <rect width="1200" height="300" fill="url(#grid-dc)" rx="12"/>
+  <rect x="0" y="0" width="6" height="300" fill="#3b82f6" rx="3"/>
+  <g transform="translate(55, 80)">
+    <rect x="5" y="0" width="70" height="14" rx="3" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="1.5"/>
+    <circle cx="65" cy="7" r="3" fill="#22c55e"/>
+    <rect x="5" y="20" width="70" height="14" rx="3" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="1.5"/>
+    <circle cx="65" cy="27" r="3" fill="#22c55e"/>
+    <rect x="5" y="40" width="70" height="14" rx="3" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="1.5"/>
+    <circle cx="65" cy="47" r="3" fill="#f59e0b"/>
+    <rect x="5" y="60" width="70" height="14" rx="3" fill="#3b82f6" fill-opacity="0.3" stroke="#3b82f6" stroke-width="1.5"/>
+    <circle cx="65" cy="67" r="3" fill="#22c55e"/>
+    <circle cx="40" cy="100" r="28" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-opacity="0.4"/>
+    <text x="40" y="107" font-family="'Segoe UI', system-ui" font-size="24" fill="#3b82f6" text-anchor="middle" font-weight="700">AI</text>
+  </g>
+  <text x="200" y="115" font-family="'Segoe UI', system-ui, sans-serif" font-size="52" font-weight="700" fill="#e2e8f0" letter-spacing="-1">DataCenter</text>
+  <text x="200" y="172" font-family="'Segoe UI', system-ui, sans-serif" font-size="52" font-weight="700" fill="#3b82f6" letter-spacing="-1">AIOps</text>
+  <text x="202" y="208" font-family="'Segoe UI', system-ui, sans-serif" font-size="20" fill="#64748b">Logs · Metrics · Traces · Incidents — AI-powered</text>
+  <rect x="202" y="225" width="90" height="26" rx="13" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-width="1"/>
+  <text x="247" y="243" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#60a5fa" text-anchor="middle">TypeScript</text>
+  <rect x="304" y="225" width="100" height="26" rx="13" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-width="1"/>
+  <text x="354" y="243" font-family="'Segoe UI', system-ui, sans-serif" font-size="12" fill="#60a5fa" text-anchor="middle">Open Source</text>
+  <g transform="translate(800, 50)">
+    <rect x="0" y="0" width="340" height="200" rx="10" fill="#0f1929" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="16" y="28" font-family="monospace" font-size="13" fill="#3b82f6">&#x25CF; LIVE METRICS</text>
+    <rect x="20" y="160" width="20" height="30" fill="#3b82f6" fill-opacity="0.7"/>
+    <rect x="50" y="130" width="20" height="60" fill="#3b82f6" fill-opacity="0.7"/>
+    <rect x="80" y="100" width="20" height="90" fill="#3b82f6"/>
+    <rect x="110" y="120" width="20" height="70" fill="#3b82f6" fill-opacity="0.7"/>
+    <rect x="140" y="80" width="20" height="110" fill="#22c55e"/>
+    <rect x="170" y="110" width="20" height="80" fill="#3b82f6" fill-opacity="0.7"/>
+    <rect x="200" y="90" width="20" height="100" fill="#3b82f6"/>
+    <rect x="230" y="140" width="20" height="50" fill="#f59e0b" fill-opacity="0.8"/>
+    <rect x="260" y="70" width="20" height="120" fill="#22c55e"/>
+    <rect x="290" y="100" width="20" height="90" fill="#3b82f6" fill-opacity="0.7"/>
+    <circle cx="240" cy="135" r="5" fill="#ef4444"/>
+    <circle cx="240" cy="135" r="9" fill="none" stroke="#ef4444" stroke-width="1.5" stroke-opacity="0.5"/>
+  </g>
+</svg>
